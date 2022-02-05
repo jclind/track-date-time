@@ -1,0 +1,37 @@
+@import './helpers.scss';
+
+* {
+  font-family: $font-family;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background: $primary-background;
+}
+#root {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+div {
+  color: $primary-text;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  font-size: toRem(16);
+  background: none;
+}
+
+.page {
+  // margin-top: 3rem;
+}

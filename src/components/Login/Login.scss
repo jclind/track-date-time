@@ -1,0 +1,33 @@
+@import '../../helpers.scss';
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 6rem;
+    gap: 1.5rem;
+    max-width: 300px;
+    width: 100%;
+
+    .login-btn {
+      padding: 0.5rem 1rem;
+      background: $primary-text;
+      height: 50px;
+      margin-top: 0.5rem;
+      font-weight: 700;
+      font-size: toRem(20);
+      width: 100%;
+      border-radius: $border-radius;
+    }
+  }
+}
